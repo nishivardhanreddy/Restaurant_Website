@@ -1,0 +1,399 @@
+*{ 
+    padding: 0;
+    margin:0;
+    border: none;
+    
+}
+nav{
+    background-color: white;
+    width: 100%;
+
+    height: 100px;
+}
+nav .img{
+    display: inline-block;
+   line-height: 100px;
+    margin-left: 25px;
+
+}
+nav ul{
+    float: right;
+    margin-right: 250px;
+}
+nav ul li { 
+    display: inline-block;
+    line-height: 100px;
+    margin:0 5px;
+}
+nav ul li a{
+    font-size:large;
+    font-weight: bolder;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  , Helvetica, sans-serif;
+    padding: 7px 20px;
+    color: #000;
+}
+a:link {
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.name{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: aliceblue;
+}
+.men{
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+.tsk{
+    font-size: 80px;
+    margin:20px 0 20px 0;
+}
+.name h2{
+    font-size:50px;
+    margin: 20px 0 20px 0 ;
+}
+.Menu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.starters{
+    width: 100%;
+    height:100px;
+}
+.starters{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+.sheet{
+  display: flex;
+  justify-content:start ;
+  align-items: center;
+  margin:10px 25px 10px 20px;
+
+}
+.dish img{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 80px;
+}
+.dish img:hover{
+    transition:1s;
+    width:110px;
+    height: 110px;
+    box-shadow: 10px 10px 10px 10px rgba(109, 107, 107, 0.677);
+    animation: shake 1s;
+    animation-iteration-count:2px;
+}
+.price{
+    margin-left: 20px;
+    width:300px;
+    /* border-bottom-style: dotted; */
+    border-bottom: 2px solid silver
+}
+.price h3{
+    font-size: x-large;
+    font-weight: bold;   
+}
+.price h3 span{
+    float: right;
+}
+/*--------------------- Gallery starts----------------*/
+.gallery{
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    margin-left: 90px;
+    margin-top: 50px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.image img{
+    width:300px;
+    height: 300px;
+}
+/*----------CONTACT CSS-------*/
+.contact{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: beige;
+}
+.address{
+    margin-top: 25px;
+}
+.address h1{
+    margin-bottom: 40px;
+    font-size: 50px;
+    margin-left: -40px;
+    font-weight: bold;
+}
+.loc{
+    display: flex;
+    text-align: center;
+}
+.loc i{
+    margin-right: 10px;
+    font-size: x-large;
+}
+.loc p{
+    font-size:15px;
+    font-style: normal;
+    text-align: start;
+   
+}
+.call{
+    display: flex;
+    text-align: center;
+    padding-top:10px ;
+}
+.call i{
+    margin-right: 10px;
+    font-size: x-large;
+}
+.call p{
+    font-size: 15px;
+
+}
+.email{
+    display:flex;
+    text-align: center;
+    padding-top: 20px;
+}
+.email i {
+    font-size:x-large;
+    margin-right: 10px;
+}
+.email p {
+    font-size: 15px;
+}
+.time{
+    margin-top: 30px;
+}
+.time h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+  
+}
+.time h2{
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 35px;
+}
+.time p{
+    font-size:medium;
+
+}
+.social{
+    margin-top: 35px;
+}
+.social a{
+    display: flex;
+    padding: 10px;
+
+}
+.social a i {
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+}
+.insta:hover{
+    color: rgb(205, 35, 140);
+}
+.facebook:hover{
+    color: rgb(49, 87, 193);
+}
+.whatsapp:hover{
+    color: rgb(90, 198, 90);
+}
+
+
+/*-------About sectionCss----------*/
+
+.about{
+    width: 100%;
+    height:1300px;
+}
+.aboutgrid{
+    display: grid;
+    height: 750px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.item1 h1{
+    position: relative;
+    top: 20%;
+    font-size:40px;
+    text-emphasis:20px;
+    font-weight: bolder;
+    text-align: center;
+}
+.item1 p{
+    font-size:20px;
+    padding:50px;
+    line-height: 1.4;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+.img1{
+    width: 60%;
+    height:60%;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    border: none;
+    border-radius: 10px;
+
+}
+.img2{
+    width: 60%;
+    height:60%;
+    position: relative;
+    top: 2%;
+    left: 20%;
+    border: none;
+    border-radius: 10px;
+
+}
+.item2 h1{
+    position: relative;
+    top: 2%;
+    font-size:40px;
+    text-emphasis:20px;
+    font-weight: bolder;
+    text-align: center;
+}
+.item2 p{
+    font-size:20px;
+    padding:50px;
+    line-height: 1.4;
+    text-align: center;
+    position: relative;
+    top: 2%;
+}
+/*--------------amenities section-------*/
+.amenities{
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+    margin-bottom: 200px;
+}
+.amenities h1{
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.facility{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.delivery img{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    border: 2px solid;
+    border-radius:10px ; 
+
+}
+.delivery h1{
+    font-size:small;
+    color: rgba(0, 0, 0, 0.638);
+}
+/*-------find us page----*/
+
+.contact-us{
+    width: 100%;
+    height:700px;
+    background-color: rgba(0, 0, 0, 0.573);
+}
+.contact-us h1{
+    width: 250px;
+    position: relative;
+    top: 15%;
+    left: 42%;
+    font-size: 40px;
+}
+.messege{
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 20%;
+    left:30%;
+}
+.input-field{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    background-color: white;
+}
+.input-field:focus{
+    outline:none;
+}
+.textarea-field{
+    height: 150px;
+    font-size:large;
+}
+.btn{
+     border-radius: 20px;
+     color: #fff;
+     margin-top: 18px;
+     padding: 10px;
+     border: none;
+     background-color:#47c35a;
+     font-size: 12px;
+     cursor: pointer;
+}
+.btn:hover{
+        font-size: 11px;
+     background-color: #34cb4b;
+}
+.Find{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Find h1{
+ font-size: 40px;
+ margin-bottom: 20px;
+}
+iframe{
+  margin-left: 50px;
+   width: 1400px;
+   height: 400px;
+}
